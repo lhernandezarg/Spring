@@ -25,9 +25,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "transformers", schema = "public")
 public class Transformer implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	@Id
